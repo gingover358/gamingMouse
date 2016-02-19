@@ -1,0 +1,77 @@
+javascript:
+
+var selectStr = document.getSelection();
+	selectStr = selectStr.toString();
+
+/*please specify target url with using /omega/ as a place for selected keyword by user*/
+var url = ["http://search.rakuten.co.jp/search/mall//omega//?f=1&sf=1&s=2&myButton=%E6%A4%9C%E7%B4%A2%E3%81%99%E3%82%8B&myButton.x=63&myButton.y=16",
+"http://search.shopping.yahoo.co.jp/search?ei=UTF-8&p=/omega/&tab_ex=commerce&X=2&used=2&t_used=2",
+"http://auctions.search.yahoo.co.jp/search?auccat=&tab_ex=commerce&ei=utf-8&aq=-1&oq=&sc_i=&fr=auc_top&p=/omega/"];
+
+function update(url,keyword){
+	if(typeof keyword === "string"){
+		for (var i = url.length - 1; i >= 0; i--) {
+			url[i] = url[i].replace(/\/omega\//, keyword);
+			console.log("string")
+ 		}
+ 	}else{
+ 		for (var i = url.length - 1; i >= 0; i--) {
+ 			var keyword = document.getElementById("productTitle").textContent || "";
+			var reg = /(\[.+\]|[\(|（].+[\)|）])/;
+				keyword = keyword.replace(reg,"");
+ 			url[i] = url[i].replace(/\/omega\//, keyword);
+ 			console.log("pass");
+ 		}
+ 	}
+	return url;
+};
+
+if(selectStr !== ""){
+	url = update(url,selectStr);
+	for (var i =url.length - 1; i >= 0; i--) {
+	window.open(url[i]);
+	};
+}else if(selectStr == "" && document.getElementById("detail_bullets_id") !==null || document.getElementById("prodDetails")!==null){
+	console.log("details");
+	　　　 keyword = document.getElementById("detail_bullets_id")||document.getElementById("prodDetails");
+	if(document.getElementById("detail_bullets_id") !==null ){
+		keyword = keyword.getElementsByTagName("li");
+		var reg = /[a-z|0-9-]+/i;
+		for (var i = keyword.length - 1; i >= 0; i--) {
+			if(keyword[i].textContent.search("メーカー型番")!== -1){
+				keyword = keyword[i].textContent;
+				keyword = reg.exec(keyword);
+				keyword = keyword[0];
+				break;
+			}
+		};
+	}else if(document.getElementById("prodDetails")!==null){
+		    keyword = document.getElementById("prodDetails");
+			keyword = keyword.getElementsByClassName("secHeader");
+		for(var i = keyword.length -1; i>=0; i--){
+			if(keyword[i].textContent.search("登録情報")!==-1||keyword[i].textContent.search("詳細情報")!==-1){	
+			 	var key = keyword[i].parentNode;
+			 	if(key.getElementsByClassName("item-model-number").length !== 0){
+			 		keyword = key.getElementsByClassName("item-model-number");
+			 		keyword = keyword[0].getElementsByClassName("value");
+					keyword = keyword[0].textContent;
+					break;
+			 	}
+			}
+		}
+	}
+	url = update(url,keyword);
+	for (var i = url.length - 1; i >= 0; i--){
+		window.open(url[i]);
+	};
+}else if(document.getElementById("productTitle") !==null){
+	url = update(url);
+	for (var i = url.length - 1; i >= 0; i--) {
+		window.open(url[i]);
+	};
+}else{
+	url = update(url);
+	for (var i = url.length - 1; i >= 0; i--) {
+		window.open(url[i]);
+	}
+}

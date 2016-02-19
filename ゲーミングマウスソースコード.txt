@@ -1,0 +1,295 @@
+Å;mnrate
+javascript:var%20d=document; var%20tx=d.selection?d.selection.createRange().text:d.getSelection();var%20subw=window.open('http://amashow.com/past.php?i=All&kwd='+tx).document; 
+
+;google
+javascript:var selectStr = document.getSelection();var encStr = encodeURIComponent(selectStr);window.open('http://www.google.com/search?q='+encStr);
+
+Å;yahoo store
+javascript:var selectStr = document.getSelection();var encStr = encodeURIComponent(selectStr);window.open('http://search.shopping.yahoo.co.jp/search?first=1&tab_ex=commerce&fr=shp-prop&oq=&aq=&mcr=a=1&cid=&p='+encStr);
+
+Å;rakuten
+javascript:var selectStr = document.getSelection();var encStr = encodeURIComponent(selectStr);window.open('http://search.rakuten.co.jp/search/mall/'+encStr'/?f=1&sf=1&s=2&myButton=%E6%A4%9C%E7%B4%A2%E3%81%99%E3%82%8B&myButton.x=63&myButton.y=16');
+
+
+Å;rakuten&&yahoo
+javascript:var selectStr = document.getSelection();var encStr = encodeURIComponent(selectStr);window.open('http://search.rakuten.co.jp/search/mall/' +encStr +'/?f=1&sf=1&s=2&myButton=%E6%A4%9C%E7%B4%A2%E3%81%99%E3%82%8B&myButton.x=63&myButton.y=16');window.open('http://search.shopping.yahoo.co.jp/search?ei=UTF-8&p=' +encStr +'&tab_ex=commerce&X=2&used=2&t_used=2');
+
+;yahoo auction
+javascript:var selectStr = document.getSelection();var encStr = encodeURIComponent(selectStr);;window.open('http://auctions.search.yahoo.co.jp/search?auccat=&tab_ex=commerce&ei=utf-8&aq=-1&oq=&sc_i=&fr=auc_top&p='+encStr);
+
+ÅGyahoo&&rakuten&&auction
+javascript:var selectStr = document.getSelection();var encStr = encodeURIComponent(selectStr); var url ='http://search.rakuten.co.jp/search/mall/' +encStr +'/?f=1&sf=1&s=2&myButton=%E6%A4%9C%E7%B4%A2%E3%81%99%E3%82%8B&myButton.x=63&myButton.y=16'; window.open(url);var url2 ='http://search.shopping.yahoo.co.jp/search?ei=UTF-8&p=' +encStr +'&tab_ex=commerce&X=2&used=2&t_used=2'; window.open(url2);window.open('http://auctions.search.yahoo.co.jp/search?auccat=&tab_ex=commerce&ei=utf-8&aq=-1&oq=&sc_i=&fr=auc_top&p=' +encStr);
+
+;feed43 rakuten
+Global search pattern : {%}
+
+item(repeatable) search pattern : 
+
+<h2>{%}</h2>{*}
+<div class="pad">{%}</div>{*}
+ <p class="price">{%}</p>
+
+item content template : {%2}{%1}
+
+
+
+ÅGÅGpct-off=-0;(ÉvÉåílÅj
+javascript: var pre = "&pct-off=-0"; var url=document.URL; window.open(url+pre,'_self');
+
+
+
+
+ÅG;bookÅEÇbÇcÅEÇcÇuÇcÅEgame
+
+ÅGäyìVÉuÉbÉNÉX(EUC-JP)
+javascript:var selectStr = document.getSelection();var encStr = encodeURIComponent(selectStr);window.open('http://search.books.rakuten.co.jp/bksearch/nm?b=1&g=000&sitem='+encStr+'&x=0&y=0&v=2&spv=2');
+
+ÅGe-hon(shift-jis)
+javascript:var selectStr = document.getSelection();var encStr = encodeURIComponent(selectStr);window.open('http://www.e-hon.ne.jp/bec/SA/ListAll?cnt=1&mode=speed&spKeyword='+encStr);
+
+ÅGÇsÇrÇtÇsÇ`ÇxÇ`
+javascript:var selectStr = document.getSelection();var encStr = encodeURIComponent(selectStr);window.open('http://shop.tsutaya.co.jp/search_result?ecCategory=00&searchType=1&pSCS=%E3%81%99%E3%81%B9%E3%81%A6%E3%81%AE%E5%95%86%E5%93%81&searchKeyword='+encStr+'&x=42&y=5');
+
+ÅGÇcÇlÇl
+javascript:var selectStr = document.getSelection();var encStr = encodeURIComponent(selectStr);window.open('http://www.dmm.com/search/=/searchstr='+encStr +'/analyze=V1EBD1YHUAc_/n1=FgRCTw9VBA4GCF5WXA__/sort=rankprofile/');
+
+;7net
+http://7net.omni7.jp/detail/1400641836
+
+ÅGrakutenbooks&e-hon&tsutaya&dmm
+javascript:var selectStr = document.getSelection();var encStr = encodeURIComponent(selectStr); window.open('http://search.books.rakuten.co.jp/bksearch/nm?f=A&sitem='+encStr +'&y=&x=&o=0&s=4&v=2&spv=2&h=30&e=0&mt=0&cy=0&sv=30');window.open('http://www.e-hon.ne.jp/bec/SA/ListAll?cnt=1&mode=speed&spKeyword='+encStr);;window.open('http://shop.tsutaya.co.jp/search_result?ecCategory=00&searchType=1&pSCS=%E3%81%99%E3%81%B9%E3%81%A6%E3%81%AE%E5%95%86%E5%93%81&searchKeyword='+encStr+'&x=42&y=5');window.open('http://www.dmm.com/search/=/searchstr='+encStr+'/analyze=V1EBD1YHUAc_/n1=FgRCTw9VBA4GCF5WXA__/sort=rankprofile/');
+
+
+http://www.e-hon.ne.jp/bec/SA/ListAll?cnt=1&mode=speed&spKeyword=4934569357953&pageNumber=0&totalCnt=1&dispCnt=20&button=btnSpeed
+
+ÅGÅGÉRÉìÉrÉj
+;ÉZÉuÉìÉlÉbÉg
+javascript:var selectStr = document.getSelection();var encStr = encodeURIComponent(selectStr);window.open('http://7net.omni7.jp/search/?keyword=' +encStr +&searchKeywordFlg=1');
+
+
+ÅGÅGâ∆ìdó îÃìX(âΩÇ≈Ç‡Ç‚Åj
+ÅGÉàÉhÉoÉV
+javascript:var selectStr = document.getSelection();var encStr = encodeURIComponent(selectStr);window.open('http://www.yodobashi.com/ec/category/index.html?cate=&word='+encStr+'&ginput=');
+
+ÅGÉÑÉ}É_
+javascript:var selectStr = document.getSelection();var encStr = encodeURIComponent(selectStr);window.open('http://www.yamada-denkiweb.com/search/'+encStr+'/?path=&searchbox=1');
+
+ÅGÇdÇcÇhÇnÇm(shift-jis)
+javascript:var selectStr = document.getSelection();var encStr = encodeURIComponent(selectStr);window.open('http://www.edion.com/disp/CSfDispListPage_002.jsp?action=search&sort=&q='+encStr +'&selectDispNo=&j=and&dispNo=&searchFlg=1');
+
+;ÉàÉhÉoÉVÅïÉÑÉ}É_ÅïEDION&K's
+javascript:var selectStr = document.getSelection();var encStr = encodeURIComponent(selectStr); window.open('http://www.yodobashi.com/ec/category/index.html?cate=&word='+encStr+'&ginput=');window.open('http://www.yamada-denkiweb.com/search/'+encStr+'/?path=&searchbox=1');window.open('http://www.edion.com/disp/CSfDispListPage_002.jsp?action=search&sort=&q='+encStr +'&selectDispNo=&j=and&dispNo=&searchFlg=1');window.open('http://www.ksdenki.com/ec/app/catalog/list/init?searchCategoryCode=0&searchMethod=0&searchWord='+encStr);
+
+
+(â∆ìdâ∆ìdó îÃìXÅj
+;k's
+javascript:var selectStr = document.getSelection();var encStr = encodeURIComponent(selectStr);window.open('http://www.ksdenki.com/ec/app/catalog/list/init?searchCategoryCode=0&searchMethod=0&searchWord='+encStr);
+
+
+ÅGÅGÉhÉâÉbÉOÉXÉgÉA
+ÅFÉAÉIÉL(shift-jis)
+javascript:var selectStr = document.getSelection();var encStr = encodeURIComponent(selectStr);window.open('http://shop.kusuri-aoki.co.jp/shop/goods/search.aspx?keyword='+encStr+'&tree=&maker=&goods=&sort=&style=P&search.x=0&search.y=0');
+
+ÅGÉ}ÉcÉÇÉgÉLÉàÉV
+javascript:var selectStr = document.getSelection();var encStr = encodeURIComponent(selectStr);window.open('http://www.matsukiyo.co.jp/store/online/search/detail/?text='+encStr);
+
+ÅGÉTÉìÉhÉâÉbÉO
+javascript:var selectStr = document.getSelection();var encStr = encodeURIComponent(selectStr);window.open('https://ec.sundrug.co.jp/catalog/searchresult/?SEARCH.CATEGORY_CODE=0&SEARCH.WORD='+encStr+'&SEARCH.HEADER_SEARCH=1');
+
+ÅFÉEÉFÉãÉVÉA
+javascript:var selectStr = document.getSelection();var encStr = encodeURIComponent(selectStr);window.open('https://www.e-welcia.com/detail/search.php?scjan=&sckeyword='+encStr);
+
+ÅGÉRÉRÉJÉâÉtÉ@ÉCÉì
+javascript:var selectStr = document.getSelection();var encStr = encodeURIComponent(selectStr);window.open('http://shop.cocokarafine.co.jp/f/dsd_____?q='+encStr);
+
+ÅGÉcÉãÉnÉhÉâÉbÉO
+javascript:var selectStr = document.getSelection();var encStr = encodeURIComponent(selectStr);window.open('https://shop.tsuruha.co.jp/products/list.php?mode=search&category_id=&name='+encStr'&search=');
+
+ÅGìØéûåüçı
+javascript:var selectStr = document.getSelection();var encStr = encodeURIComponent(selectStr);window.open('http://shop.kusuri-aoki.co.jp/shop/goods/search.aspx?keyword='+encStr+'&tree=&maker=&goods=&sort=&style=P&search.x=0&search.y=0');window.open('http://www.matsukiyo.co.jp/store/online/search/detail/?text='+encStr);window.open('https://ec.sundrug.co.jp/catalog/searchresult/?SEARCH.CATEGORY_CODE=0&SEARCH.WORD='+encStr+'&SEARCH.HEADER_SEARCH=1');window.open('https://www.e-welcia.com/detail/search.php?scjan=&sckeyword='+encStr);window.open('http://shop.cocokarafine.co.jp/f/dsd_____?q='+encStr);window.open('https://shop.tsuruha.co.jp/products/list.php?mode=search&category_id=&name='+encStr+'&search=');
+
+
+
+ÅGÅGÉzÅ[ÉÄÉZÉìÉ^Å[
+
+
+ÅGÅGÉJÅ[ópïi
+
+
+
+;;mouse gesture
+http://mnrate.com/past.php?i=All&kwd=%s
+http://www.google.com/search?q=%s
+http://www.amazon.co.jp/gp/search?ie=UTF8&keywords=%s&tag=sisese05-22&index=aps&linkCode=ur2&camp=247&creative=1211
+https://ja.wikipedia.org/wiki/%s
+
+
+;;key config back up
+{
+  "name": "Chrome Keyconfig",
+  "version": "1.14.0",
+  "normal_actions": {
+    "q q": {
+      "name": "select left tab",
+      "args": []
+    },
+    "w w": {
+      "name": "select right tab",
+      "args": []
+    },
+    "t t": {
+      "name": "toggle pin tab",
+      "args": []
+    },
+    "j": {
+      "name": "scroll down",
+      "args": []
+    },
+    "k": {
+      "name": "scroll up",
+      "args": []
+    },
+    "h": {
+      "name": "scroll left",
+      "args": []
+    },
+    "l": {
+      "name": "scroll right",
+      "args": []
+    },
+    "M-j": {
+      "name": "scroll down half page",
+      "args": []
+    },
+    "M-k": {
+      "name": "scroll up half page",
+      "args": []
+    },
+    "M-J": {
+      "name": "scroll to bottom",
+      "args": []
+    },
+    "M-K": {
+      "name": "scroll to top",
+      "args": []
+    },
+    "a a": {
+      "name": "focus first text input",
+      "args": []
+    },
+    "C-d": {
+      "name": "navigate form elements forward",
+      "args": []
+    },
+    "C-u": {
+      "name": "navigate form elements backward",
+      "args": []
+    },
+    "Esc": {
+      "name": "limited mode",
+      "args": []
+    },
+    "c o n f i g": {
+      "name": "Keyconfig",
+      "args": []
+    },
+    "C-U": {
+      "name": "go to #1",
+      "args": [
+        "javascript:var selectStr = document.getSelection();var encStr = encodeURIComponent(selectStr);window.open('http://search.rakuten.co.jp/search/mall/'+encStr);window.open('http://search.shopping.yahoo.co.jp/search?first=1&tab_ex=commerce&fr=shp-prop&oq=&aq=&mcr=a=1&cid=&p='+encStr);",
+        "rakuten&yahoo"
+      ],
+      "and": false
+    },
+    "C-H": {
+      "name": "go to #1",
+      "args": [
+        "javascript:var selectStr = document.getSelection();var encStr = encodeURIComponent(selectStr);;window.open('http://auctions.search.yahoo.co.jp/search?auccat=&tab_ex=commerce&ei=utf-8&aq=-1&oq=&sc_i=&fr=auc_top&p='+encStr);",
+        "auction"
+      ],
+      "and": false
+    },
+    "C-F": {
+      "name": "go to #1",
+      "args": [
+        "javascript:var selectStr = document.getSelection();var encStr = encodeURIComponent(selectStr); var url ='http://search.rakuten.co.jp/search/mall/' +encStr +'/?f=1&sf=1&s=2&myButton=%E6%A4%9C%E7%B4%A2%E3%81%99%E3%82%8B&myButton.x=63&myButton.y=16'; window.open(url);var url2 ='http://search.shopping.yahoo.co.jp/search?ei=UTF-8&p=' +encStr +'&tab_ex=commerce&oq=&cid=&X=2'; window.open(url2);window.open('http://auctions.search.yahoo.co.jp/search?auccat=&tab_ex=commerce&ei=utf-8&aq=-1&oq=&sc_i=&fr=auc_top&p=' +encStr);",
+        "rakuten&yahoo&auction"
+      ],
+      "and": false
+    },
+    "C-K": {
+      "name": "go to #1",
+      "args": [
+        "javascript:var selectStr = document.getSelection();var encStr = encodeURIComponent(selectStr); window.open('http://www.yodobashi.com/ec/category/index.html?cate=&word='+encStr+'&ginput=');window.open('http://www.yamada-denkiweb.com/search/'+encStr+'/?path=&searchbox=1');window.open('http://www.edion.com/disp/CSfDispListPage_002.jsp?action=search&sort=&q='+encStr +'&selectDispNo=&j=and&dispNo=&searchFlg=1');windopen('http://www.ksdenki.com/ec/app/catalog/list/init?searchCategoryCode=0&searchMethod=0&searchWord=ow.'+encStr);",
+        "ÉàÉhÉoÉVÅïÉÑÉ}É_ÅïEDION&K's"
+      ],
+      "and": false
+    },
+    "C-A": {
+      "name": "go to #1",
+      "args": [
+        "javascript:var selectStr = document.getSelection();var encStr = encodeURIComponent(selectStr); window.open('http://search.books.rakuten.co.jp/bksearch/nm?f=A&sitem='+encStr +'&y=&x=&o=0&s=4&v=2&spv=2&h=30&e=0&mt=0&cy=0&sv=30');window.open('http://www.e-hon.ne.jp/bec/SA/ListAll?cnt=1&mode=speed&spKeyword='+encStr+'&pageNumber=0&totalCnt=1&dispCnt=20&button=btnSpeed');window.open('http://shop.tsutaya.co.jp/search_result?ecCategory=00&searchType=1&pSCS=%E3%81%99%E3%81%B9%E3%81%A6%E3%81%AE%E5%95%86%E5%93%81&searchKeyword='+encStr+'&x=42&y=5');window.open('http://www.dmm.com/search/=/searchstr='+encStr+'/analyze=V1EBD1YHUAc_/n1=FgRCTw9VBA4GCF5WXA__/sort=rankprofile/');",
+        "books"
+      ],
+      "and": false
+    },
+    "C-Z": {
+      "name": "go to #1",
+      "args": [
+        "javascript:var selectStr = document.getSelection();var encStr = encodeURIComponent(selectStr);window.open('http://shop.kusuri-aoki.co.jp/shop/goods/search.aspx?keyword='+encStr+'&tree=&maker=&goods=&sort=&style=P&search.x=0&search.y=0');window.open('http://www.matsukiyo.co.jp/store/online/search/detail/?text='+encStr);window.open('https://ec.sundrug.co.jp/catalog/searchresult/?SEARCH.CATEGORY_CODE=0&SEARCH.WORD='+encStr+'&SEARCH.HEADER_SEARCH=1');window.open('https://www.e-welcia.com/detail/search.php?scjan=&sckeyword='+encStr);window.open('http://shop.cocokarafine.co.jp/f/dsd_____?q='+encStr);window.open('https://shop.tsuruha.co.jp/products/list.php?mode=search&category_id=&name='+encStr+'&search=');",
+        "drug store"
+      ],
+      "and": false
+    }
+  },
+  "limited_actions": {
+    "Esc": {
+      "name": "normal mode",
+      "args": []
+    }
+  },
+  "useTabTitle": false,
+  "smooth_scroll": false,
+  "ldrize": false,
+  "chrome_vim": false,
+  "antiAutoFocus": false,
+  "vim_normal_actions": {
+    "j": {
+      "name": "Down",
+      "args": []
+    },
+    "k": {
+      "name": "Up",
+      "args": []
+    },
+    "h": {
+      "name": "Left",
+      "args": []
+    },
+    "l": {
+      "name": "Right",
+      "args": []
+    },
+    "^": {
+      "name": "Line head",
+      "args": []
+    },
+    "$": {
+      "name": "Line foot",
+      "args": []
+    },
+    "Esc": {
+      "name": "normal mode",
+      "args": []
+    },
+    "i": {
+      "name": "insert mode",
+      "args": []
+    }
+  },
+  "vim_insert_actions": {
+    "Esc": {
+      "name": "normal mode",
+      "args": []
+    }
+
